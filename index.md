@@ -14,17 +14,14 @@
 [comment]: # (respondToHashChanges: false)
 [comment]: # (Other settings are documented at https://revealjs.com/config/)
 
-### Preparing Future Software Engineers
+#### Student Reflections on Relating Programming Concepts to Their Lives in Worked Example Videos
 ----------
 
-Kevin Buffardi, Ph.D., Professor, California State University, Chico
+Kevin Buffardi and Richert Wang
 
-[LearnByFailure.com](https://learnbyfailure.com/)
+<img src="qr-asee2026.svg" alt="QR code for this presentation" width="25%"></img>
 
-<img src="qr-future-se.svg" alt="QR code for this presentation" width="30%">
-</img>
-
-<sub>[LearnByFailure.com](https://learnbyfailure.com/future-software-engineers/)</sub>
+<sub>[LearnByFailure.com](https://learnbyfailure.com/reflections-asee2026/)</sub>
 
 [comment]: # (!!!)
 

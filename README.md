@@ -1,12 +1,12 @@
-# Preparing Future Software Engineers, 2025
+# Student Reflections on Relating Programming Concepts to Their Lives in Worked Example Videos
 
 This repository contains the online presentation:
 
-"Preparing Future Software Engineers" by Kevin Buffardi
+"Student Reflections on Relating Programming Concepts to Their Lives in Worked Example Videos" by Kevin Buffardi and Richert Wang
 
 ## Presentation
 
-The slides can be viewed in a web browser by opening [index.html](index.html) or as hosted at [learnbyfailure.com/future-software-engineers/](https://learnbyfailure.com/future-software-engineers/).
+The slides can be viewed in a web browser by opening [index.html](index.html) or as hosted at [learnbyfailure.com/reflections-asee2026/](https://learnbyfailure.com/reflections-asee2026/).
 
 ## Rebuild HTML
 
