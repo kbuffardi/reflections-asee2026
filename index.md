@@ -207,13 +207,13 @@ A bat and a ball cost `$1.10` in total. The bat costs `$1.00` more than the ball
 
 [comment]: # (!!!)
 
-#### Preparing Future Software Engineers
+#### Student Reflections on Relating Programming Concepts to Their Lives in Worked Example Videos
 
-<small>This presentation is accessible at [learnbyfailure.com/future-software-engineers/](https://learnbyfailure.com/future-software-engineers/) and its source is available on [GitHub](https://github.com/kbuffardi/future-software-engineers/).</small>
+<small>Presentation: [learnbyfailure.com/reflections-asee2026/](https://learnbyfailure.com/reflections-asee2026/) and source: [GitHub](https://github.com/kbuffardi/reflections-asee2026/).</small>
 
-<small>Special thanks to student co-authors: [Pedro Valdivia](https://www.linkedin.com/in/pedro-valdivia1/), [Destiny Rogers](https://www.linkedin.com/in/destiny-rogers/), and [Juan Aguirre-Ayala](https://www.linkedin.com/in/jaguirre-ayala/) who were all undergraduate researchers at Chico State.</small>
+<small>This material is based upon work supported in part by the [National Science Foundation](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2315883&HistoricalAwards=false) and by the [Learning Lab](https://calearninglab.org/project/python-4-all/), an initiative of California Governor’s Office of Planning and Research. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the funders.</small>
 
-<img src="qr-future-se.svg" alt="QR code for this presentation" width="30%">
+<img src="qr-asee2026.svg" alt="QR code for this presentation" width="25%">
 </img>
 
 <small>[Back to LearnByFailure](https://learnbyfailure.com/research/)
