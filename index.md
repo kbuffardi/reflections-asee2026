@@ -21,191 +21,320 @@ Kevin Buffardi and Richert Wang
 
 <img src="qr-asee2026.svg" alt="QR code for this presentation" width="25%"></img>
 
-<sub>[LearnByFailure.com](https://learnbyfailure.com/reflections-asee2026/)</sub>
+<sub>[LearnByFailure.com](https://learnbyfailure.com/)</sub>
 
 [comment]: # (!!!)
 
-#### Challenges: Academia to Industry
+#### Why Personalized Coding Examples?
 
-- **Learning to learn**
-- **Navigate "Big Picture" of Software Engineering**
-- **Critial Thinking**
+* Computing impacts increasingly broad applications
+* Intro materials often [reflect narrow interests (e.g. games, robitics)](https://learnbyfailure.com/interests/)
+* Many students struggle to see how coding relates to their own lives
+* Goal: broaden participation by connecting programming to **students' lived experiences**
 
-[comment]: # (||| data-auto-animate)
+[comment]: # "!!!"
 
-#### Challenges: Academia to Industry
+#### Five Years of codewit.us
 
-- **Learning to learn**
-  - Contemporary technologies
-    - DevOps (Docker, GitHub Actions CI, etc.)
-    - Leading tech stacks
-  - Adapting to evolving trends
-  - Professional skills
-    - Communication, collaboration, leadership
-    - Entrepreneurship
+* <a href="https://codewit.us/" target="_blank">Codewit.us</a> and <a href="https://www.youtube.com/@codewit/videos" target="_blank">Codewit @ Youtube</a>
+* Undergraduate "peer instructors" created coding tutorials
+* Intro topics (e.g. data types, control flow, functions) in C++, Java, Python
 
-[comment]: # (||| data-auto-animate)
+Examples connected coding to:
 
-#### Challenges: Academia to Industry
+* Athletics
+* Music
+* Arts and crafts
+* Personal productivity
+* "Adulting"
 
-- **Navigate "Big Picture" of Software Engineering**
-  - Prioritizing users' evolving needs
-    - Involve clients and/or stakeholders when possible
-  - Long-term maintenance and implications
-    - Projects with legacy code
+[comment]: # "|||"
 
-[comment]: # (||| data-auto-animate)
+<img src="strings_bracelets.png" alt="Peer instructor illustrating a bracelet superimposed with an IDE of Java code demonstrating Strings" width="100%"></img>
 
-#### Challenges: Academia to Industry
+[comment]: # "|||"
 
-- **Critial Thinking**
-  - Learning, analyzing, innovating norms
-  - Testing yourself
+#### Research Questions
 
+Common question at research presentations:
 
-[comment]: # (!!! data-auto-animate)
+**How can** *my* **students do this too?!**
 
-#### Testing Yourself: Unit testing
+* **RQ1** What motivations, challenges, and successes did peer-instructors experience?
+* **RQ2** How can watching and creating worked examples motivate learning computer science?
+* **RQ3** How can the process and tools best support students in creating their own worked examples?
+* **RQ4** How did creating worked examples impact their identities and self-perceptions as computer scientists?
 
-* Automated check of the functionality of the smallest "unit" of code
-  * Documents expected behavior of the unit
-* Sooner we discover bugs, the better
-  * Test a function implementation immediately
-  * Regression tests
+[comment]: # "!!!"
 
-[comment]: # (|||)
+#### Participants & Context
 
-#### Testing Yourself: Unit Test Assertiona
+* 12 peer instructors hired across project phases
 
-Compare **actual** and **expected** values 
-of placing pieces on a Tic-Tac-Toe board:
+  * California State University, Chico (Chico State)
+  * University of California, Santa Barbara (UCSB)
+  * Diverse academic pathways and backgrounds
+  * Weekly mentoring and feedback sessions
 
-`ASSERT_EQ( board.place_piece(0,0), 'X');`
+[comment]: # "|||"
 
-Or 
+#### Process
 
-`ASSERT_EQ( board.place_piece(-1,2), '?');`
+Peer instructors were encouraged to:
 
+1. Choose unique, personally meaningful contexts
+2. Explain concepts in their own words
+3. Demonstrate concepts through worked examples
 
-[comment]: # (|||)
+[comment]: # "|||"
 
-#### Limitations of Testing Metrics
+### Methods
 
-* **Coverage** - After all tests are run, what % of production code has been run?
+#### Focus Groups
 
-[comment]: # (||| data-auto-animate)
+* Fall 2025
+* 2 focus groups (online video conference)
+* 7 of 12 eligible peer instructors participated
+* One-hour semi-structured discussions
 
-#### Limitations of Testing Metrics
+[comment]: # "||| data-auto-animate"
 
-* **Coverage** - After all tests are run, what % of production code has been run?
-* **Mutation Testing** - Make "mutant" variants of code, are they "killed" by tests?
+### Methods
 
-[comment]: # (||| data-auto-animate)
+#### Questionnaire
 
-#### Mutants
+* 10 Likert-scale items
+* Examined perceived impacts of creating tutorial videos
 
-``` [1|2|3|4]
-if( row >= 0 && row <= 2 && column >= 0 && column <= 2 )
-if( row >= 0 && row <= 2 && column > 0 && column <= 2 )
-if( row >= 0 && row <= 2 && column >= 0 )
-if( row >= 0 && row <= 2 || column >= 0 && column <= 2 )
-```
-  
-[comment]: # (|||)
+[comment]: # "||| data-auto-animate"
 
-#### What about...
+### Methods
 
-`ASSERT_EQ( true, false );`
+#### Analysis
 
-[comment]: # (!!!)
+* Thematic analysis
+* Independent coding by two researchers
+* Consensus-building on themes
 
-#### Testing Yourself: Positive Affirmation
+[comment]: # "!!!"
 
-* How reliably do tests **positively affirm** functionality consistent with software requirements?
-* All-Function Pairs testing
-  1. Classify each student's code (against instructor's tests) as **acceptable** or **buggy**
-  2. Run each student's tests against each {acceptable, buggy} implementation
+#### RQ1: Why Did Students Participate?
 
-[comment]: # (|||)
+Participants described motivations including:
 
-![](positive-affirmation.svg)
+* Enjoyment of tutoring and teaching
+* Reinforcing programming fundamentals
+* Interest in communication and mentoring
+* Flexible employment opportunity
+* Desire to help future learners
 
-[comment]: # (|||)
+Teaching programming was viewed as a way to deepen their own understanding
 
-* Many do well (but not perfect) with only a few false positives and negatives
-* Some struggled with either:
-  * **positive affirmation** *or* **test effectiveness** on a given function to test
-* Either type of inaccuracy is *equally associated* with number of bugs in *their own* code [(Buffardi \& Valdivia, 2019)](http://hdl.handle.net/10125/60199)
-* Some "Unit Test Smells" associated with **worse accuracy** [(Buffardi \& Aguirre-Ayala, 2021)](https://dl.acm.org/doi/abs/10.1145/3430665.3456328)
+[comment]: # "||| data-auto-animate"
 
-[comment]: # (!!!)
+#### RQ1: Creating Personal Examples
 
-#### Testing Yourself: Measuring Testing Accuracy
+Common idea-generation strategies:
 
-* How are **testing effectiveness** and **positive affirmation** related to a lack of bugs? [(Buffardi, Valdivia, \& Rogers, 2019)](https://doi.org/10.1145/3287324.3287351)
-  * **Accuracy** = (True Positives + True Negatives) / 
-    (True Positives + True Negatives + False Positives + False Negatives)
-  * **Accuracy** stronger correlation with lack of bugs than either **Test Effectiveness** or **Coverage**
+* Drawing from hobbies and interests
+* Connecting concepts to everyday life
+* Using personal memories and stories
+* Relating coding to their academic discipline
+* Brainstorming with peers
 
-[comment]: # (|||)
+[comment]: # "||| data-auto-animate"
 
-![Effectiveness vs Lack of Bugs, showing weak positive correlation](bug-finding.png)
+#### RQ1: Challenges
 
-(ρ=.355, p<.0167)
+Participants reported difficulty:
 
-[comment]: # (|||)
+* Overcoming writer's block
+* Balancing creativity and accuracy
+* Keeping examples appropriately scoped
+* Isolating concepts for beginners
+* Creating examples distinct from peers
 
-![Coverage vs Lack of Bugs, showing moderate positive correlation](coverage.png)
+[comment]: # "||| data-auto-animate"
 
-(ρ=.514, p<.001)
+#### RQ1: Challenges
 
-[comment]: # (|||)
+Most helpful supports:
 
-![Accuracy vs Lack of Bugs, showing strong positive correlation](accuracy.png)
+* Weekly brainstorming meetings
+* Peer collaboration
+* Faculty feedback
+* Iterative revision
 
-(ρ=.648, p<.001)
+[comment]: # "!!!"
 
-[comment]: # (!!!)
+### RQ2: Motivating Learners
 
-#### Reflecting like a tester
+Two themes emerged:
 
-  * Tversky and Kahneman’s [*Nobel Prize in Economics-winning research*](https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/facts/): consumers do not make decisions in their rational best interests because of cognitive biases
-  * [**Cognitive Reflection Test**](https://www.aeaweb.org/articles?id=10.1257/089533005775196732) (CRT) tests the proficiency at inhibiting (fast) *"gut reaction"* in favor of (slower) *deliberate critical thinking*, e.g.:
+#### 1. Personal Connection
 
-A bat and a ball cost `$1.10` in total. The bat costs `$1.00` more than the ball. How much does the ball cost?
+* Storytelling
+* Enthusiasm
+* Charisma
+* Peer-like communication
 
-[comment]: # (!!!)
+[comment]: # "||| data-auto-animate"
 
-##### Code Review
+### RQ2: Motivating Learners
 
-* <small>Receive a string and return whether or not it is strictly a palindrome, where it is spelled the same backwards and forwards when considering every character in the string, but disregarding case ('x' is same as 'X')</small>
+Two themes emerged:
 
-![Example implementation of isPalindrome function](isPalindrome.png)
+#### 2. Concrete Applications
 
-[comment]: # (!!!)
+* Games
+* Robotics
+* Simulations
+* Real-world tools
 
-#### CRT vs Code Review
+[comment]: # "||| data-auto-animate"
 
-* CRT was a significant predictor of:
-  * Code review **rejecting defective code** (p<0.0001) with the log odds of correctly rejecting the defective code increasing by 2.94 (95% CI 1.56-4.50)
-  * Code review **identifying a defective case** (p<0.001) with the log odds of doing so increasing by 2.37 (95% CI 1.05-3.86).
+### RQ2: Motivating Learners
 
-[comment]: # (||| data-auto-animate)
+Two themes emerged:
 
-#### CRT vs Code Review
+1. Personal Connection - female focus group (n=4)
+2. Concrete Applications - male focus group (n=3)
 
-* CRT is strongly associated with **numeracy**
-* Replication study: variant of CRT (with no math) and different functions
-  * consistent association with **manual code review** (ρ=0.478, p<0.01)
+[comment]: # "!!!"
 
-[comment]: # (|||)
+### RQ3: Supporting Student Creativity
 
-#### CRT vs Unit Testing
+#### Recommendations from participants:
 
-* **However**, no correlation between CRT and unit test accuracy in either original (ρ=0.008, p=0.940) or replication (ρ=0.113, p=0.498) studies [(Buffardi 2023)](https://doi.org/10.1109/ICSE-SEET58685.2023.00006)
-* *Why do you think cognitive reflection is associated with manually reviewing code, but not unit test accuracy?*
+* Start with broad ideas
+* Refine into concrete examples
+* Observe everyday experiences
+* Use structured prompts
+* Allow time for reflection
 
-[comment]: # (!!!)
+[comment]: # "||| data-auto-animate"
+
+### RQ3: Supporting Student Creativity
+
+#### Collaboration Matters
+
+* Individual brainstorming first
+* Small-group discussion second
+* Peer feedback throughout
+
+Participants recommended students **create their own examples** rather than shared group examples
+
+[comment]: # "||| data-auto-animate"
+
+### RQ3: Supporting Student Creativity
+
+#### Helpful Tools & Processes
+
+Participants valued:
+
+* Live coding environments
+* Screen recording tools
+* Visual annotation
+* Diagrams and drawings
+* Video editing software
+* Feedback (self, peer, faculty)
+
+> Participants reported becoming more comfortable and efficient over time.
+
+[comment]: # "!!!"
+
+### RQ4: Impact on Identity
+
+Participants reported:
+
+* Stronger understanding of fundamentals
+* Increased confidence as programmers
+* Improved debugging ability
+* Better communication skills
+* Greater appreciation for teaching
+
+[comment]: # "||| data-auto-animate"
+
+### RQ4: Impact on Identity
+
+Many connected the experience to:
+
+* Technical interviews
+* Internships
+* Professional communication
+
+[comment]: # "||| data-auto-animate"
+
+### RQ4: Impact on Identity
+
+#### Questionnaire Results
+
+<img src="stacked_responses_white_text.svg" alt="Chart representing 5-point likert scale responses, where overwhelmingly positive answers indicate (1) gaining confidence in coding skills, (2) motivating career in coding, (3) strengthening identity as a coder, (4) appreciating the instructor's point of view, (5) appreciating CS education, (6) learning computer science, (7) relatabiliy to diverse range of students, (8) presenting/communication skills, (9) skills with multimedia tools, and (10) programming skills" width = "80%" />
+
+[comment]: # "!!!"
+
+### Recommended Framework
+
+**Ideation** <img src="ideation.png" alt="Ideation" width="160px" style="vertical-align:middle" />
+
+**Drafting** <img src="drafting.png" alt="Drafting" width="160px" style="vertical-align:middle" />
+
+**Revision** <img src="revision.png" alt="Revision" width="160px" style="vertical-align:middle" />
+
+**Teaching** <img src="teaching.png" alt="Teaching" width="160px" style="vertical-align:middle" />
+
+[comment]: # "||| data-auto-animate"
+
+### Recommended Framework
+
+**Ideation** <img src="ideation.png" alt="Ideation" width="160px" style="vertical-align:middle" />
+
+Connect programming concepts to:
+
+* Interests
+* Experiences
+* Goals
+* Cultural contexts
+
+[comment]: # "||| data-auto-animate"
+
+### Recommended Framework
+
+**Drafting** <img src="drafting.png" alt="Drafting" width="160px" style="vertical-align:middle" />
+
+* Translate ideas into working code
+* Test and validate code
+* Draft accompanying illustrations
+
+[comment]: # "||| data-auto-animate"
+
+### Recommended Framework
+
+**Revision** <img src="revision.png" alt="Revision" width="160px" style="vertical-align:middle" />
+
+* Practice explaining and refining the example
+* Iterate on feedback from self/peers/instructor
+
+[comment]: # "||| data-auto-animate"
+
+### Recommended Framework
+
+**Teaching** <img src="teaching.png" alt="Teaching" width="160px" style="vertical-align:middle" />
+
+* Deliver example through video or presentation
+
+[comment]: # "!!! data-auto-animate"
+
+### Key Takeaways
+
+* Students successfully connected coding concepts to lived experiences
+* Creating examples was both challenging and rewarding
+* Feedback and collaboration were essential
+* Individual examples preferred, with peer feedback
+* The activity strengthened confidence and communication skills
+* Personalized worked examples provide a practical strategy for broadening participation in computing
+
+[comment]: # "!!!"
 
 #### Student Reflections on Relating Programming Concepts to Their Lives in Worked Example Videos
 
