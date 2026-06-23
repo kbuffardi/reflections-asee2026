@@ -40,14 +40,6 @@ Kevin Buffardi and Richert Wang
 * Undergraduate "peer instructors" created coding tutorials
 * Intro topics (e.g. data types, control flow, functions) in C++, Java, Python
 
-Examples connected coding to:
-
-* Athletics
-* Music
-* Arts and crafts
-* Personal productivity
-* "Adulting"
-
 [comment]: # "|||"
 
 <img src="strings_bracelets.png" alt="Peer instructor illustrating a bracelet superimposed with an IDE of Java code demonstrating Strings" width="100%"></img>
@@ -60,10 +52,10 @@ Common question at research presentations:
 
 **How can** *my* **students do this too?!**
 
-* **RQ1** What motivations, challenges, and successes did peer-instructors experience?
-* **RQ2** How can watching and creating worked examples motivate learning computer science?
-* **RQ3** How can the process and tools best support students in creating their own worked examples?
-* **RQ4** How did creating worked examples impact their identities and self-perceptions as computer scientists?
+* RQ1: What **motivations, challenges, and successes** did peer-instructors experience?
+* RQ2: How can watching and creating worked examples motivate learning computer science?
+* RQ3: How can the **process and tools best support** students in creating their own worked examples?
+* RQ4: How did creating worked examples **impact their identities** and self-perceptions as computer scientists?
 
 [comment]: # "!!!"
 
@@ -156,7 +148,7 @@ Participants reported difficulty:
 
 [comment]: # "||| data-auto-animate"
 
-#### RQ1: Challenges
+#### RQ1: Overcoming Challenges
 
 Most helpful supports:
 
@@ -167,7 +159,7 @@ Most helpful supports:
 
 [comment]: # "!!!"
 
-### RQ2: Motivating Learners
+#### RQ2: Motivating Learners
 
 Two themes emerged:
 
@@ -180,7 +172,7 @@ Two themes emerged:
 
 [comment]: # "||| data-auto-animate"
 
-### RQ2: Motivating Learners
+#### RQ2: Motivating Learners
 
 Two themes emerged:
 
@@ -193,7 +185,7 @@ Two themes emerged:
 
 [comment]: # "||| data-auto-animate"
 
-### RQ2: Motivating Learners
+#### RQ2: Motivating Learners
 
 Two themes emerged:
 
@@ -202,7 +194,7 @@ Two themes emerged:
 
 [comment]: # "!!!"
 
-### RQ3: Supporting Student Creativity
+#### RQ3: Supporting Student Creativity
 
 #### Recommendations from participants:
 
@@ -214,7 +206,7 @@ Two themes emerged:
 
 [comment]: # "||| data-auto-animate"
 
-### RQ3: Supporting Student Creativity
+#### RQ3: Supporting Student Creativity
 
 #### Collaboration Matters
 
@@ -226,7 +218,7 @@ Participants recommended students **create their own examples** rather than shar
 
 [comment]: # "||| data-auto-animate"
 
-### RQ3: Supporting Student Creativity
+#### RQ3: Supporting Student Creativity
 
 #### Helpful Tools & Processes
 
@@ -234,16 +226,13 @@ Participants valued:
 
 * Live coding environments
 * Screen recording tools
-* Visual annotation
-* Diagrams and drawings
+* Visual annotation, diagrams, and drawings
 * Video editing software
 * Feedback (self, peer, faculty)
 
-> Participants reported becoming more comfortable and efficient over time.
-
 [comment]: # "!!!"
 
-### RQ4: Impact on Identity
+#### RQ4: Impact on Identity
 
 Participants reported:
 
@@ -255,7 +244,7 @@ Participants reported:
 
 [comment]: # "||| data-auto-animate"
 
-### RQ4: Impact on Identity
+#### RQ4: Impact on Identity
 
 Many connected the experience to:
 
@@ -265,7 +254,7 @@ Many connected the experience to:
 
 [comment]: # "||| data-auto-animate"
 
-### RQ4: Impact on Identity
+#### RQ4: Impact on Identity
 
 #### Questionnaire Results
 
@@ -273,19 +262,16 @@ Many connected the experience to:
 
 [comment]: # "!!!"
 
-### Recommended Framework
+#### Recommended Framework
 
-**Ideation** <img src="ideation.png" alt="Ideation" width="160px" style="vertical-align:middle" />
-
-**Drafting** <img src="drafting.png" alt="Drafting" width="160px" style="vertical-align:middle" />
-
-**Revision** <img src="revision.png" alt="Revision" width="160px" style="vertical-align:middle" />
-
-**Teaching** <img src="teaching.png" alt="Teaching" width="160px" style="vertical-align:middle" />
+1. **Ideation** <img src="ideation.png" alt="Ideation" width="160px" style="vertical-align:middle" />
+2. **Drafting** <img src="drafting.png" alt="Drafting" width="160px" style="vertical-align:middle" />
+3. **Revision** <img src="revision.png" alt="Revision" width="160px" style="vertical-align:middle" />
+4. **Teaching** <img src="teaching.png" alt="Teaching" width="160px" style="vertical-align:middle" />
 
 [comment]: # "||| data-auto-animate"
 
-### Recommended Framework
+#### Recommended Framework
 
 **Ideation** <img src="ideation.png" alt="Ideation" width="160px" style="vertical-align:middle" />
 
@@ -298,7 +284,7 @@ Connect programming concepts to:
 
 [comment]: # "||| data-auto-animate"
 
-### Recommended Framework
+#### Recommended Framework
 
 **Drafting** <img src="drafting.png" alt="Drafting" width="160px" style="vertical-align:middle" />
 
@@ -308,7 +294,7 @@ Connect programming concepts to:
 
 [comment]: # "||| data-auto-animate"
 
-### Recommended Framework
+#### Recommended Framework
 
 **Revision** <img src="revision.png" alt="Revision" width="160px" style="vertical-align:middle" />
 
@@ -317,7 +303,7 @@ Connect programming concepts to:
 
 [comment]: # "||| data-auto-animate"
 
-### Recommended Framework
+#### Recommended Framework
 
 **Teaching** <img src="teaching.png" alt="Teaching" width="160px" style="vertical-align:middle" />
 
@@ -325,7 +311,7 @@ Connect programming concepts to:
 
 [comment]: # "!!! data-auto-animate"
 
-### Key Takeaways
+#### Key Takeaways
 
 * Students successfully connected coding concepts to lived experiences
 * Creating examples was both challenging and rewarding
